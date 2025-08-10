@@ -1,4 +1,4 @@
 pub mod api;
 mod client;
 
-pub use client::SimplyClient;
+pub use client::{SimplyClient, SimplyClientError};
