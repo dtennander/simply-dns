@@ -1,6 +1,6 @@
 [package]
 name = "simply-dns"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2024"
 license = "MIT"
 description = "An async Rust client for the [Simply.com API](https://www.simply.com/se/docs/api/)"

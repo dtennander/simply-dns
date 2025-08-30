@@ -111,6 +111,8 @@ pub struct UpdateDnsRecordRequest {
     pub priority: Option<u32>,
     /// Time to live (TTL) for the record, in seconds.
     pub ttl: Option<u32>,
+    /// Optional comment or metadata for the record.
+    pub comment: Option<String>,
 }
 
 /// Response for deleting a DNS record via the API.
